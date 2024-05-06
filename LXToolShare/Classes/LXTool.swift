@@ -10,22 +10,22 @@ import CommonCrypto
 
 public class LXTool: NSObject {
     
-    func saveValue(_ value: String?, forKey key: String) {
+    public func saveValue(_ value: String?, forKey key: String) {
         UserDefaults.standard.setValue(value, forKey: key)
         UserDefaults.standard.synchronize()
     }
     
-    func removeValue(forKey key: String) {
+    public func removeValue(forKey key: String) {
         UserDefaults.standard.removeObject(forKey: key)
         UserDefaults.standard.synchronize()
     }
     
-    func getValue(forKey key: String) -> String {
+    public  func getValue(forKey key: String) -> String {
         return "\(UserDefaults.standard.object(forKey: key) ?? "")"
     }
     
     ///字典转化成字符串
-    func jsonString(from dictionary: [String: Any]) -> String? {
+    public func jsonString(from dictionary: [String: Any]) -> String? {
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: dictionary, options: .prettyPrinted)
             let jsonString = String(data: jsonData, encoding: .utf8)?.replacingOccurrences(of: "\n", with: "")
@@ -36,7 +36,7 @@ public class LXTool: NSObject {
     }
     
     ///获取随机数
-    func generateTradeNumber(count number:Int) -> String {
+    public func generateTradeNumber(count number:Int) -> String {
         
         let count = max(number, 1)
         
@@ -53,7 +53,7 @@ public class LXTool: NSObject {
     }
     
     ///获取时间戳
-    func getNowTimeTimestamp3() -> String {
+    public  func getNowTimeTimestamp3() -> String {
         let formatter = DateFormatter()
         formatter.dateStyle = .medium
         formatter.timeStyle = .short
@@ -67,7 +67,7 @@ public class LXTool: NSObject {
     
     /// sha1加密处理
     /// @param str 需要处理的字符串
-    func sha1(with str: String) -> String {
+    public  func sha1(with str: String) -> String {
         if let cstr = str.cString(using: .utf8) {
             let data = Data(bytes: cstr, count: str.lengthOfBytes(using: .utf8))
             var digest = [UInt8](repeating: 0, count: Int(CC_SHA1_DIGEST_LENGTH))
@@ -89,7 +89,7 @@ public class LXTool: NSObject {
      *  @param content 要加密的文本
      *  @return 加密后的字符串
      */
-    func hmacSHA256(withSecret secret: String, content: String) -> String {
+    public  func hmacSHA256(withSecret secret: String, content: String) -> String {
         if let cKey = secret.cString(using: .ascii), let cData = content.cString(using: .utf8) {
             var cHMAC = [UInt8](repeating: 0, count: Int(CC_SHA256_DIGEST_LENGTH))
             CCHmac(CCHmacAlgorithm(kCCHmacAlgSHA256), cKey, Int(strlen(cKey)), cData, Int(strlen(cData)), &cHMAC)

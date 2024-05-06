@@ -40,7 +40,7 @@ public let S_Radii_6_Height :CGFloat                    = 6
 public let S_Radii_4_Height :CGFloat                    = 4
 
 
-public func KrealyHeight(_ changeHeight:CGFloat)->CGFloat
+public func realyHeight(_ changeHeight:CGFloat)->CGFloat
 {
     return KScreenWidth * (changeHeight / 375)
 }

@@ -14,11 +14,15 @@ class ViewController: UIViewController {
        
         self.view.backgroundColor = UIColor.white
         
-        let lab = UILabel.init(frame: CGRect(x: 100, y: 100, width: 100, height: 30))
-        lab.text = "会飞的猪"
-        lab.font = Font.pfRegular(ofSize: 12)
+        let lab = UILabel.init(text: "会飞的猪", font: Font.pfRegular(ofSize: 12), color: UIColor.init(hexString: "#333333"))
+        lab.frame = CGRectMake(0, 0, 100, realyHeight(13))
         self.view.addSubview(lab)
         
+        let app = LXTool()
+        app.saveValue("value",forKey: "key")
+        
+        app.removeValue(forKey: "key")
+             
     }
 
 
