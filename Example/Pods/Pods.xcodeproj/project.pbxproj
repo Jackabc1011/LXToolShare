@@ -14,6 +14,8 @@
 		94C5486209ECCD2FE72F75F0008F5ABD /* MarcoMangerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CA93E3E9BBB969A2AA33BA729C9DE /* MarcoMangerFile.swift */; };
 		9BD0C00098AC9D97AF1D81471630D60A /* Pods-wstShare_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCF737C60895F42D9DFBA2641D296D /* Pods-wstShare_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4DF5CD7B91C1500B13963B120768CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF70AAFF2BE8AF27003A3181 /* LXStaticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */; };
+		DF70AB002BE8AF27003A3181 /* LXStaticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E5E89807CE80F16CA1F9417B9A4576A /* wstShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wstShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E5E89807CE80F16CA1F9417B9A4576A /* wstShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = wstShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13533D788F18084DB22C48717FC46FF1 /* wstShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wstShare.release.xcconfig; sourceTree = "<group>"; };
 		1D8A0EC0416908CE41D23A1DC704B53F /* wstShare-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wstShare-prefix.pch"; sourceTree = "<group>"; };
 		2A1CA93E3E9BBB969A2AA33BA729C9DE /* MarcoMangerFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarcoMangerFile.swift; path = wstShare/Classes/MarcoMangerFile.swift; sourceTree = "<group>"; };
@@ -38,16 +40,17 @@
 		4D6BE9C5C0AE802106A6B9F22A1E3E92 /* Pods-wstShare_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wstShare_Tests-dummy.m"; sourceTree = "<group>"; };
 		5C69C5E5E5643CC16591CCB08E917B6D /* Pods-wstShare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wstShare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		82C4D68933C29534C93853DF2DCD76BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		88341CC2F96ADA40060E572A02786FF9 /* Pods-wstShare_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-wstShare_Tests"; path = Pods_wstShare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9160CF93BC2B702BA3D8758C092F7D22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82C4D68933C29534C93853DF2DCD76BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		88341CC2F96ADA40060E572A02786FF9 /* Pods_wstShare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wstShare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9160CF93BC2B702BA3D8758C092F7D22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4DF9939AC3DAB3510095C1108CF4F71 /* Pods-wstShare_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wstShare_Tests.modulemap"; sourceTree = "<group>"; };
 		A5606E3AD0FB8730FD490D44F3DB38D2 /* wstShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wstShare-umbrella.h"; sourceTree = "<group>"; };
 		C608EEDE0A0B708B622BF833DC7673E5 /* wstShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wstShare-dummy.m"; sourceTree = "<group>"; };
 		C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wstShare; path = wstShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CCF737C60895F42D9DFBA2641D296D /* Pods-wstShare_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wstShare_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D2260FDE30254F6A86F125040F3BDAD7 /* Pods-wstShare_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wstShare_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXStaticManger.swift; sourceTree = "<group>"; };
 		E20F986E2AD5E586B485F81220EFB0AE /* Pods-wstShare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wstShare_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEAA75E9C063CD6C7791DAA2FCEC36E0 /* wstShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wstShare.modulemap; sourceTree = "<group>"; };
 		FF0709EAD829439DB4DB8BD724010B4C /* Pods-wstShare_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wstShare_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -124,7 +127,7 @@
 		85C343D8236D5339BC8D0BC3BE999802 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88341CC2F96ADA40060E572A02786FF9 /* Pods-wstShare_Tests */,
+				88341CC2F96ADA40060E572A02786FF9 /* Pods_wstShare_Tests.framework */,
 				C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare */,
 			);
 			name = Products;
@@ -134,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				2A1CA93E3E9BBB969A2AA33BA729C9DE /* MarcoMangerFile.swift */,
+				DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */,
 				D7A9883919579407A7D040BA1686E4C5 /* Pod */,
 				30A19F705E3448574705DC9E4B64288F /* Support Files */,
 			);
@@ -216,7 +220,7 @@
 			);
 			name = "Pods-wstShare_Tests";
 			productName = Pods_wstShare_Tests;
-			productReference = 88341CC2F96ADA40060E572A02786FF9 /* Pods-wstShare_Tests */;
+			productReference = 88341CC2F96ADA40060E572A02786FF9 /* Pods_wstShare_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C166F3051634C56AFD13AD44E1DA4731 /* wstShare */ = {
@@ -245,6 +249,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					41B958F2F5C3B0AB4A7D54A70503D337 = {
+						LastSwiftMigration = 1520;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -288,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C5486209ECCD2FE72F75F0008F5ABD /* MarcoMangerFile.swift in Sources */,
+				DF70AB002BE8AF27003A3181 /* LXStaticManger.swift in Sources */,
 				2DDD4F53D0A714DDB98E02F419B5AC19 /* wstShare-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22104AF7DAB58BCD1B7B52A58E3566BF /* Pods-wstShare_Tests-dummy.m in Sources */,
+				DF70AAFF2BE8AF27003A3181 /* LXStaticManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +329,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -340,6 +352,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -533,8 +546,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -546,6 +558,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -568,6 +581,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -5,10 +5,7 @@
 
 1:常用的工具集合
 
-## 安装
-
-wstShare is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## pods安装
 
 ```ruby
 pod 'wstShare'
