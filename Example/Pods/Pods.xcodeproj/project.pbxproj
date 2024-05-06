@@ -14,8 +14,8 @@
 		94C5486209ECCD2FE72F75F0008F5ABD /* MarcoMangerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CA93E3E9BBB969A2AA33BA729C9DE /* MarcoMangerFile.swift */; };
 		9BD0C00098AC9D97AF1D81471630D60A /* Pods-wstShare_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CCF737C60895F42D9DFBA2641D296D /* Pods-wstShare_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4DF5CD7B91C1500B13963B120768CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DF70AAFF2BE8AF27003A3181 /* LXStaticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */; };
-		DF70AB002BE8AF27003A3181 /* LXStaticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */; };
+		DF70AB022BE8B05D003A3181 /* LXStaticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70AB012BE8B05D003A3181 /* LXStaticManger.swift */; };
+		DF70AB032BE8B05D003A3181 /* LXStaticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF70AB012BE8B05D003A3181 /* LXStaticManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wstShare; path = wstShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CCF737C60895F42D9DFBA2641D296D /* Pods-wstShare_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wstShare_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D2260FDE30254F6A86F125040F3BDAD7 /* Pods-wstShare_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wstShare_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXStaticManger.swift; sourceTree = "<group>"; };
+		DF70AB012BE8B05D003A3181 /* LXStaticManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LXStaticManger.swift; path = wstShare/Classes/LXStaticManger.swift; sourceTree = "<group>"; };
 		E20F986E2AD5E586B485F81220EFB0AE /* Pods-wstShare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wstShare_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEAA75E9C063CD6C7791DAA2FCEC36E0 /* wstShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wstShare.modulemap; sourceTree = "<group>"; };
 		FF0709EAD829439DB4DB8BD724010B4C /* Pods-wstShare_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wstShare_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 		A7FDD3C5F88B6352104E28348ED8CB6E /* wstShare */ = {
 			isa = PBXGroup;
 			children = (
+				DF70AB012BE8B05D003A3181 /* LXStaticManger.swift */,
 				2A1CA93E3E9BBB969A2AA33BA729C9DE /* MarcoMangerFile.swift */,
-				DF70AAFE2BE8AF27003A3181 /* LXStaticManger.swift */,
 				D7A9883919579407A7D040BA1686E4C5 /* Pod */,
 				30A19F705E3448574705DC9E4B64288F /* Support Files */,
 			);
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C5486209ECCD2FE72F75F0008F5ABD /* MarcoMangerFile.swift in Sources */,
-				DF70AB002BE8AF27003A3181 /* LXStaticManger.swift in Sources */,
+				DF70AB032BE8B05D003A3181 /* LXStaticManger.swift in Sources */,
 				2DDD4F53D0A714DDB98E02F419B5AC19 /* wstShare-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22104AF7DAB58BCD1B7B52A58E3566BF /* Pods-wstShare_Tests-dummy.m in Sources */,
-				DF70AAFF2BE8AF27003A3181 /* LXStaticManger.swift in Sources */,
+				DF70AB022BE8B05D003A3181 /* LXStaticManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
