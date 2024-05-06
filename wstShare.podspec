@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+专用🎁
                        DESC
 
   s.homepage         = 'https://github.com/Jackabc1011/wstShare'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Jackabc1011' => '18576722857@163.com' }
+  s.author           = { 'Jackabc1011' => '1637718985@qq.com' }
   s.source           = { :git => 'https://github.com/Jackabc1011/wstShare.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'wstShare/Classes/**/*'
   
