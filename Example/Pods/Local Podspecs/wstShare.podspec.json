@@ -1,0 +1,22 @@
+{
+  "name": "wstShare",
+  "version": "0.1.0",
+  "summary": "A short description of wstShare.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jackabc1011/wstShare",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jackabc1011": "18576722857@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Jackabc1011/wstShare.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "wstShare/Classes/**/*"
+}

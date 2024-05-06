@@ -1,0 +1,6 @@
+framework module wstShare {
+  umbrella header "wstShare-umbrella.h"
+
+  export *
+  module * { export * }
+}
