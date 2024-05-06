@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C28F363CD8F4F70BB5407BD749DF908 /* LXStaticManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63021106EC9D58F3908253FD4783F815 /* LXStaticManger.swift */; };
+		1C28F363CD8F4F70BB5407BD749DF908 /* UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63021106EC9D58F3908253FD4783F815 /* UIKitUtils.swift */; };
 		22104AF7DAB58BCD1B7B52A58E3566BF /* Pods-wstShare_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BE9C5C0AE802106A6B9F22A1E3E92 /* Pods-wstShare_Tests-dummy.m */; };
 		2DCD687AAAA86FE7BAEA9BA55D92AA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		39CB94DCD8D28588CA400E655BE95299 /* MarcoMangerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8DEB63373C960F69B3E21A12D6F251 /* MarcoMangerFile.swift */; };
@@ -36,19 +36,19 @@
 		500ADE83265212FFA7CDF7E9207EBE68 /* wstShare-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "wstShare-Info.plist"; sourceTree = "<group>"; };
 		5417589442E7129EA8BE70CC91824D05 /* wstShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wstShare.release.xcconfig; sourceTree = "<group>"; };
 		5C69C5E5E5643CC16591CCB08E917B6D /* Pods-wstShare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wstShare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		63021106EC9D58F3908253FD4783F815 /* LXStaticManger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXStaticManger.swift; path = wstShare/Classes/LXStaticManger.swift; sourceTree = "<group>"; };
+		63021106EC9D58F3908253FD4783F815 /* UIKitUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitUtils.swift; path = wstShare/Classes/UIKitUtils.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7CD7C04AC85F1C8AD1224FB8BC52EB1B /* wstShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = wstShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7E0C550BFEEAB136DE9BEEE153515D22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7CD7C04AC85F1C8AD1224FB8BC52EB1B /* wstShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = wstShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E0C550BFEEAB136DE9BEEE153515D22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		88341CC2F96ADA40060E572A02786FF9 /* Pods-wstShare_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-wstShare_Tests"; path = Pods_wstShare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92845E6D91B6EA9EE1D34D579F5AAA50 /* wstShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wstShare-dummy.m"; sourceTree = "<group>"; };
 		9C8DEB63373C960F69B3E21A12D6F251 /* MarcoMangerFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarcoMangerFile.swift; path = wstShare/Classes/MarcoMangerFile.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4DF9939AC3DAB3510095C1108CF4F71 /* Pods-wstShare_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wstShare_Tests.modulemap"; sourceTree = "<group>"; };
 		C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wstShare; path = wstShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CCF737C60895F42D9DFBA2641D296D /* Pods-wstShare_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wstShare_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D2260FDE30254F6A86F125040F3BDAD7 /* Pods-wstShare_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wstShare_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6F371816F1F3F7BA1A1A626A1C84E58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6F371816F1F3F7BA1A1A626A1C84E58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E20F986E2AD5E586B485F81220EFB0AE /* Pods-wstShare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wstShare_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEBFCD82AB9418A55CE92C123DB1ADB3 /* wstShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = wstShare.modulemap; sourceTree = "<group>"; };
 		FDBD86A07F804E3B9E45F92ABF0FF707 /* wstShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wstShare-umbrella.h"; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		BDF27C3DC97CD2503FA0C3FB94A9FE47 /* wstShare */ = {
 			isa = PBXGroup;
 			children = (
-				63021106EC9D58F3908253FD4783F815 /* LXStaticManger.swift */,
+				63021106EC9D58F3908253FD4783F815 /* UIKitUtils.swift */,
 				9C8DEB63373C960F69B3E21A12D6F251 /* MarcoMangerFile.swift */,
 				989A82D84596052BCB48E21F67A2721B /* Pod */,
 				EE3A5453AE76421A9C896964E90AB02F /* Support Files */,
@@ -290,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C28F363CD8F4F70BB5407BD749DF908 /* LXStaticManger.swift in Sources */,
+				1C28F363CD8F4F70BB5407BD749DF908 /* UIKitUtils.swift in Sources */,
 				39CB94DCD8D28588CA400E655BE95299 /* MarcoMangerFile.swift in Sources */,
 				DC74A8B2721B0DA5E61869CB0FCBAC40 /* wstShare-dummy.m in Sources */,
 			);
@@ -472,8 +472,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
