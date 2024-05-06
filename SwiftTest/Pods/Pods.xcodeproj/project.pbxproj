@@ -9,17 +9,18 @@
 /* Begin PBXBuildFile section */
 		12A718B2026FFF302133734D959C2490 /* Pods-SwiftTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 677E99342A8CE73C8424E78352A4DF00 /* Pods-SwiftTest-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1C636CDC454E25E9C28185B77F0D575E /* Pods-SwiftTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D386E10C5A81C8AE89D736695AEC97F /* Pods-SwiftTest-dummy.m */; };
-		1C899EA8455F83C82240F0319106A581 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781A09A090E6B723876C7D6283C156EE /* UIImageView+Extension.swift */; };
-		291EC57FD99EC488FE28410F160676DF /* MarcoMangerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054FDF27B73370DD0EB7C57B891070A /* MarcoMangerFile.swift */; };
-		6E9405CC594A6D2AFBBCD21CCEA2188C /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A30312CD33D18714200580AFFF415 /* UILabel+Extension.swift */; };
-		74D0F03BAFEE8A71E7DA183B9601A01D /* LXToolShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0C6AFA94AFAE57D618BC8820E8B20F /* LXToolShare-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		791730A76F5BA358A0EC11860739E034 /* LXToolShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A5E7F24BB4347482A066EE0840982D /* LXToolShare-dummy.m */; };
-		8826B7CDA084117097C824BC439A96A6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9632D3B0E5E3A72AF9623E26769CE /* UIColor+Extension.swift */; };
-		B39F375842D58D80EE2EBFAF8CDFA3B3 /* UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA0F9419F2192A86B27156F705078 /* UIKitUtils.swift */; };
+		1F99611664312D79875B42508BF69145 /* LXToolShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68876BDE0262C4A35072C11468FFD71C /* LXToolShare-dummy.m */; };
+		57AD585626C8E2425159FDB7BA0302CC /* LXToolShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B001EA049D0D676B05D820012935D2D5 /* LXToolShare-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BE6A537378DEF52DA8424CE9FA77A40 /* UIKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA5A1ACCE4500012269C469C83F632 /* UIKitUtils.swift */; };
+		7CE9EB49B850A90342635689F984F1C8 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B33416BCB3B31DC823B083D16CC250 /* UILabel+Extension.swift */; };
+		B3F95293DAC5F747D199FD1FE6049312 /* LXTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3079FE69C53F74EC7C0561C0DA13AB /* LXTool.swift */; };
+		C3490DF7DBD0DE622E13002D8EBB765C /* MarcoMangerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B4001E97489B685ACBF8FD2B493D2 /* MarcoMangerFile.swift */; };
+		D5E70BB19F0CEAA41BE3C474A1663E02 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5A133E7EB5FAF856B4C6501288970 /* UIColor+Extension.swift */; };
+		E0A7ED781B1C9B1A316A9E6FA4C7B103 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902084D312FF01561328F2B9B364ECEA /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65F3C2D95AEBBA13C5740CB4EDCF1858 /* PBXContainerItemProxy */ = {
+		B8F1BA05A02AEAE745CB76D372FA6134 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,41 +30,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B6F9C3AA1ADD017C363F9FFA4AA52B /* LXToolShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXToolShare.release.xcconfig; sourceTree = "<group>"; };
-		1642E0939D3B3F775F5BE069F1D66AC3 /* LXToolShare-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXToolShare-prefix.pch"; sourceTree = "<group>"; };
+		0BF5A133E7EB5FAF856B4C6501288970 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "LXToolShare/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		1A652E28B318EABB3E7255975D4D7E06 /* Pods-SwiftTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21A5E7F24BB4347482A066EE0840982D /* LXToolShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXToolShare-dummy.m"; sourceTree = "<group>"; };
-		2D4A30312CD33D18714200580AFFF415 /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "LXToolShare/Classes/UILabel+Extension.swift"; sourceTree = "<group>"; };
+		30DA5A1ACCE4500012269C469C83F632 /* UIKitUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitUtils.swift; path = LXToolShare/Classes/UIKitUtils.swift; sourceTree = "<group>"; };
 		3C4B0740929A039AC9C32D04CD8E47B4 /* Pods-SwiftTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		4DCF1964F80C0ADF67BCD50C817119AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46A2C1A9C9C29144181F3A76E82FEA4E /* LXToolShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXToolShare.release.xcconfig; sourceTree = "<group>"; };
+		4A7D9F95275AE32F06899F2888EC1D37 /* LXToolShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXToolShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D386E10C5A81C8AE89D736695AEC97F /* Pods-SwiftTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftTest-dummy.m"; sourceTree = "<group>"; };
 		677E99342A8CE73C8424E78352A4DF00 /* Pods-SwiftTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftTest-umbrella.h"; sourceTree = "<group>"; };
+		68876BDE0262C4A35072C11468FFD71C /* LXToolShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXToolShare-dummy.m"; sourceTree = "<group>"; };
 		6C135C93260B331BDA30146384069E96 /* Pods-SwiftTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftTest.modulemap"; sourceTree = "<group>"; };
-		781A09A090E6B723876C7D6283C156EE /* UIImageView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "LXToolShare/Classes/UIImageView+Extension.swift"; sourceTree = "<group>"; };
-		8BDD4E4EE9F667EE6C12A0B55628ABBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74B33416BCB3B31DC823B083D16CC250 /* UILabel+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Extension.swift"; path = "LXToolShare/Classes/UILabel+Extension.swift"; sourceTree = "<group>"; };
+		8B3079FE69C53F74EC7C0561C0DA13AB /* LXTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXTool.swift; path = LXToolShare/Classes/LXTool.swift; sourceTree = "<group>"; };
 		8D05DF274AD0B47DF52381B7DC819F71 /* Pods-SwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTest.release.xcconfig"; sourceTree = "<group>"; };
-		9054FDF27B73370DD0EB7C57B891070A /* MarcoMangerFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarcoMangerFile.swift; path = LXToolShare/Classes/MarcoMangerFile.swift; sourceTree = "<group>"; };
-		958326968AF601A741D6E2ED16397BF9 /* LXToolShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXToolShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		902084D312FF01561328F2B9B364ECEA /* UIImageView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "LXToolShare/Classes/UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		92F6CE2552025D4025614A66AB3B63AE /* LXToolShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXToolShare.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1F9632D3B0E5E3A72AF9623E26769CE /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "LXToolShare/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
-		BA0C6AFA94AFAE57D618BC8820E8B20F /* LXToolShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXToolShare-umbrella.h"; sourceTree = "<group>"; };
+		B001EA049D0D676B05D820012935D2D5 /* LXToolShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXToolShare-umbrella.h"; sourceTree = "<group>"; };
+		B648D7669493788FC346DE4AF874AC97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B89A19E2EBB667EC5A7F9722353B4F76 /* LXToolShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXToolShare.debug.xcconfig; sourceTree = "<group>"; };
 		BB97E6FE922FDE3DC8E783846289F22F /* Pods-SwiftTest */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SwiftTest"; path = "libPods-SwiftTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD050A68020FA67FCCCFCC08D3565B0 /* Pods-SwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
-		C6AE601A9AF2C5055742FF31E281E54C /* LXToolShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXToolShare.debug.xcconfig; sourceTree = "<group>"; };
+		D950A809F52A36FC6D1B7E31395714C2 /* LXToolShare-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXToolShare-prefix.pch"; sourceTree = "<group>"; };
+		DD8B4001E97489B685ACBF8FD2B493D2 /* MarcoMangerFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarcoMangerFile.swift; path = LXToolShare/Classes/MarcoMangerFile.swift; sourceTree = "<group>"; };
 		E6778AA845FC5ABE2335AEF219708296 /* LXToolShare */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LXToolShare; path = libLXToolShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F55CA0F9419F2192A86B27156F705078 /* UIKitUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitUtils.swift; path = LXToolShare/Classes/UIKitUtils.swift; sourceTree = "<group>"; };
-		FFDE4A47F9D0EDBF8145C6C65707E287 /* LXToolShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXToolShare.modulemap; sourceTree = "<group>"; };
+		FDC5099EDDBA2F903D2DAD3A01348CC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45C5C2953D38BAA0E8A7DFF4E2E341CD /* Frameworks */ = {
+		3AD01D852DFC3CE94BA1D0D9485578DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA28157D8BC78C8AE898F754C97F2D32 /* Frameworks */ = {
+		45C5C2953D38BAA0E8A7DFF4E2E341CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,30 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1652C7673881E9F2719447109E6E50D5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4DCF1964F80C0ADF67BCD50C817119AB /* LICENSE */,
-				958326968AF601A741D6E2ED16397BF9 /* LXToolShare.podspec */,
-				8BDD4E4EE9F667EE6C12A0B55628ABBB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		276816A87D61E3D76D442DDE5FC71E77 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FFDE4A47F9D0EDBF8145C6C65707E287 /* LXToolShare.modulemap */,
-				21A5E7F24BB4347482A066EE0840982D /* LXToolShare-dummy.m */,
-				1642E0939D3B3F775F5BE069F1D66AC3 /* LXToolShare-prefix.pch */,
-				BA0C6AFA94AFAE57D618BC8820E8B20F /* LXToolShare-umbrella.h */,
-				C6AE601A9AF2C5055742FF31E281E54C /* LXToolShare.debug.xcconfig */,
-				00B6F9C3AA1ADD017C363F9FFA4AA52B /* LXToolShare.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "SwiftTest/Pods/Target Support Files/LXToolShare";
-			sourceTree = "<group>";
-		};
 		35CB1B85635958575360D2B4D4BCEDA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,30 +107,53 @@
 			path = "Target Support Files/Pods-SwiftTest";
 			sourceTree = "<group>";
 		};
+		963A779EDECF7AEC61F44E1708EFA82B /* LXToolShare */ = {
+			isa = PBXGroup;
+			children = (
+				8B3079FE69C53F74EC7C0561C0DA13AB /* LXTool.swift */,
+				DD8B4001E97489B685ACBF8FD2B493D2 /* MarcoMangerFile.swift */,
+				0BF5A133E7EB5FAF856B4C6501288970 /* UIColor+Extension.swift */,
+				902084D312FF01561328F2B9B364ECEA /* UIImageView+Extension.swift */,
+				30DA5A1ACCE4500012269C469C83F632 /* UIKitUtils.swift */,
+				74B33416BCB3B31DC823B083D16CC250 /* UILabel+Extension.swift */,
+				F63C05B3237AA1E5A5CE98EF6C57774C /* Pod */,
+				AA31F40633E37F3C291FCB787D7E71CD /* Support Files */,
+			);
+			name = LXToolShare;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA31F40633E37F3C291FCB787D7E71CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F6CE2552025D4025614A66AB3B63AE /* LXToolShare.modulemap */,
+				68876BDE0262C4A35072C11468FFD71C /* LXToolShare-dummy.m */,
+				D950A809F52A36FC6D1B7E31395714C2 /* LXToolShare-prefix.pch */,
+				B001EA049D0D676B05D820012935D2D5 /* LXToolShare-umbrella.h */,
+				B89A19E2EBB667EC5A7F9722353B4F76 /* LXToolShare.debug.xcconfig */,
+				46A2C1A9C9C29144181F3A76E82FEA4E /* LXToolShare.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "SwiftTest/Pods/Target Support Files/LXToolShare";
+			sourceTree = "<group>";
+		};
+		CAC0628DAE1789EEA79BD0BDFD375270 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				963A779EDECF7AEC61F44E1708EFA82B /* LXToolShare */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FDFFC0FE6EC564DF9B5821E02273FC72 /* Development Pods */,
+				CAC0628DAE1789EEA79BD0BDFD375270 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				35CB1B85635958575360D2B4D4BCEDA6 /* Products */,
 				426EB81EB78FD1AFAF461A6B48BD1929 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D838FB20A1787BF04FD674A9AF9D20CF /* LXToolShare */ = {
-			isa = PBXGroup;
-			children = (
-				9054FDF27B73370DD0EB7C57B891070A /* MarcoMangerFile.swift */,
-				A1F9632D3B0E5E3A72AF9623E26769CE /* UIColor+Extension.swift */,
-				781A09A090E6B723876C7D6283C156EE /* UIImageView+Extension.swift */,
-				F55CA0F9419F2192A86B27156F705078 /* UIKitUtils.swift */,
-				2D4A30312CD33D18714200580AFFF415 /* UILabel+Extension.swift */,
-				1652C7673881E9F2719447109E6E50D5 /* Pod */,
-				276816A87D61E3D76D442DDE5FC71E77 /* Support Files */,
-			);
-			name = LXToolShare;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -162,12 +163,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDFFC0FE6EC564DF9B5821E02273FC72 /* Development Pods */ = {
+		F63C05B3237AA1E5A5CE98EF6C57774C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D838FB20A1787BF04FD674A9AF9D20CF /* LXToolShare */,
+				B648D7669493788FC346DE4AF874AC97 /* LICENSE */,
+				4A7D9F95275AE32F06899F2888EC1D37 /* LXToolShare.podspec */,
+				FDC5099EDDBA2F903D2DAD3A01348CC5 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,11 +184,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		950C6E8C509A2EB9818E11B1336940D9 /* Headers */ = {
+		5DF47378A1466CF8B5A0602533E26A80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D0F03BAFEE8A71E7DA183B9601A01D /* LXToolShare-umbrella.h in Headers */,
+				57AD585626C8E2425159FDB7BA0302CC /* LXToolShare-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,12 +197,12 @@
 /* Begin PBXNativeTarget section */
 		05178AD33271B83777CF403A22FBA72B /* LXToolShare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29ED0341007807616CFD9289BD435281 /* Build configuration list for PBXNativeTarget "LXToolShare" */;
+			buildConfigurationList = 297316A5F562504DAB9705E2344DA198 /* Build configuration list for PBXNativeTarget "LXToolShare" */;
 			buildPhases = (
-				950C6E8C509A2EB9818E11B1336940D9 /* Headers */,
-				69F361A80E8FBCCD89AE8F66FE767FC8 /* Sources */,
-				BA28157D8BC78C8AE898F754C97F2D32 /* Frameworks */,
-				8416E7031F154221513A6CDF804C5BFF /* Copy generated compatibility header */,
+				5DF47378A1466CF8B5A0602533E26A80 /* Headers */,
+				A4A02240DE740EA849DD17D2D5338AA4 /* Sources */,
+				3AD01D852DFC3CE94BA1D0D9485578DB /* Frameworks */,
+				19CF32DA0750536ECD4F3903E4FE43E4 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -221,7 +224,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DDE9C6951A37EBF2ABA7B079623C3992 /* PBXTargetDependency */,
+				1BA33134F69A4AF1AFD98DED1ADEBC2D /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftTest";
 			productName = "Pods-SwiftTest";
@@ -257,7 +260,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8416E7031F154221513A6CDF804C5BFF /* Copy generated compatibility header */ = {
+		19CF32DA0750536ECD4F3903E4FE43E4 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,16 +287,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69F361A80E8FBCCD89AE8F66FE767FC8 /* Sources */ = {
+		A4A02240DE740EA849DD17D2D5338AA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791730A76F5BA358A0EC11860739E034 /* LXToolShare-dummy.m in Sources */,
-				291EC57FD99EC488FE28410F160676DF /* MarcoMangerFile.swift in Sources */,
-				8826B7CDA084117097C824BC439A96A6 /* UIColor+Extension.swift in Sources */,
-				1C899EA8455F83C82240F0319106A581 /* UIImageView+Extension.swift in Sources */,
-				B39F375842D58D80EE2EBFAF8CDFA3B3 /* UIKitUtils.swift in Sources */,
-				6E9405CC594A6D2AFBBCD21CCEA2188C /* UILabel+Extension.swift in Sources */,
+				B3F95293DAC5F747D199FD1FE6049312 /* LXTool.swift in Sources */,
+				1F99611664312D79875B42508BF69145 /* LXToolShare-dummy.m in Sources */,
+				C3490DF7DBD0DE622E13002D8EBB765C /* MarcoMangerFile.swift in Sources */,
+				D5E70BB19F0CEAA41BE3C474A1663E02 /* UIColor+Extension.swift in Sources */,
+				E0A7ED781B1C9B1A316A9E6FA4C7B103 /* UIImageView+Extension.swift in Sources */,
+				7BE6A537378DEF52DA8424CE9FA77A40 /* UIKitUtils.swift in Sources */,
+				7CE9EB49B850A90342635689F984F1C8 /* UILabel+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,11 +312,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DDE9C6951A37EBF2ABA7B079623C3992 /* PBXTargetDependency */ = {
+		1BA33134F69A4AF1AFD98DED1ADEBC2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LXToolShare;
 			target = 05178AD33271B83777CF403A22FBA72B /* LXToolShare */;
-			targetProxy = 65F3C2D95AEBBA13C5740CB4EDCF1858 /* PBXContainerItemProxy */;
+			targetProxy = B8F1BA05A02AEAE745CB76D372FA6134 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,9 +383,9 @@
 			};
 			name = Release;
 		};
-		1DD838DCAC0A58132743DEFAD45562CE /* Release */ = {
+		336E6500B90222DF3456E7847E3F2115 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B6F9C3AA1ADD017C363F9FFA4AA52B /* LXToolShare.release.xcconfig */;
+			baseConfigurationReference = 46A2C1A9C9C29144181F3A76E82FEA4E /* LXToolShare.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -494,31 +498,9 @@
 			};
 			name = Release;
 		};
-		80E5A31A87C7AF599E70DD8ED160547B /* Debug */ = {
+		796D210FAA5D67974E3437D2B8DA4782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFD050A68020FA67FCCCFCC08D3565B0 /* Pods-SwiftTest.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftTest/Pods-SwiftTest.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C6CAF859204F818CC121C68C65008068 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6AE601A9AF2C5055742FF31E281E54C /* LXToolShare.debug.xcconfig */;
+			baseConfigurationReference = B89A19E2EBB667EC5A7F9722353B4F76 /* LXToolShare.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -541,14 +523,36 @@
 			};
 			name = Debug;
 		};
+		80E5A31A87C7AF599E70DD8ED160547B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD050A68020FA67FCCCFCC08D3565B0 /* Pods-SwiftTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftTest/Pods-SwiftTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29ED0341007807616CFD9289BD435281 /* Build configuration list for PBXNativeTarget "LXToolShare" */ = {
+		297316A5F562504DAB9705E2344DA198 /* Build configuration list for PBXNativeTarget "LXToolShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6CAF859204F818CC121C68C65008068 /* Debug */,
-				1DD838DCAC0A58132743DEFAD45562CE /* Release */,
+				796D210FAA5D67974E3437D2B8DA4782 /* Debug */,
+				336E6500B90222DF3456E7847E3F2115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
