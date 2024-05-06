@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|
   s.name             = 'wstShare'
   s.version          = '0.0.1'
@@ -13,6 +14,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Jackabc1011/wstShare.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '12.0'
-  
+  s.swift_version = '5.0'
   s.source_files = 'wstShare/Classes/**/*'
 end

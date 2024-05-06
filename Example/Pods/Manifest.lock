@@ -1,5 +1,5 @@
 PODS:
-  - wstShare (0.1.0)
+  - wstShare (0.0.1)
 
 DEPENDENCIES:
   - wstShare (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  wstShare: 3f87103bb49bdf83262fd7015835491a7c35f43c
+  wstShare: 5c1db6d15de8bbb97fcee28c1cbaaafd16ab0122
 
 PODFILE CHECKSUM: b3e90ee3d0306cecf01b8cb793e8429ab161f74c
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
