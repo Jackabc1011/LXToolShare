@@ -1,4 +1,4 @@
-# wstShare
+# LXToolShare
 
 
 ## 功能汇总
@@ -8,7 +8,7 @@
 ## pods安装
 
 ```ruby
-pod 'wstShare'
+pod 'LXToolShare'
 ```
 
 ## 归属

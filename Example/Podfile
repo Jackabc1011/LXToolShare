@@ -1,6 +1,0 @@
-use_frameworks!
-target 'wstShare_Tests' do
-  pod 'wstShare', :path => '../'
-  
-  
-end
