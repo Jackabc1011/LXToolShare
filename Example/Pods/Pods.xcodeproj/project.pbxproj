@@ -47,7 +47,7 @@
 		A4DF9939AC3DAB3510095C1108CF4F71 /* Pods-wstShare_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-wstShare_Tests.modulemap"; sourceTree = "<group>"; };
 		A5606E3AD0FB8730FD490D44F3DB38D2 /* wstShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wstShare-umbrella.h"; sourceTree = "<group>"; };
 		C608EEDE0A0B708B622BF833DC7673E5 /* wstShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wstShare-dummy.m"; sourceTree = "<group>"; };
-		C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wstShare; path = wstShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wstShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CCF737C60895F42D9DFBA2641D296D /* Pods-wstShare_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wstShare_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D2260FDE30254F6A86F125040F3BDAD7 /* Pods-wstShare_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wstShare_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF70AB012BE8B05D003A3181 /* LXStaticManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LXStaticManger.swift; path = wstShare/Classes/LXStaticManger.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				88341CC2F96ADA40060E572A02786FF9 /* Pods_wstShare_Tests.framework */,
-				C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare */,
+				C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			);
 			name = wstShare;
 			productName = wstShare;
-			productReference = C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare */;
+			productReference = C78D7AF6B187001DE3A985118BDB5FE7 /* wstShare.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -443,13 +443,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/wstShare/wstShare-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/wstShare/wstShare-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/wstShare/wstShare.modulemap";
 				PRODUCT_MODULE_NAME = wstShare;
 				PRODUCT_NAME = wstShare;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,13 +479,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/wstShare/wstShare-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/wstShare/wstShare-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/wstShare/wstShare.modulemap";
 				PRODUCT_MODULE_NAME = wstShare;
 				PRODUCT_NAME = wstShare;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
