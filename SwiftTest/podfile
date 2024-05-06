@@ -1,0 +1,8 @@
+
+
+target 'SwiftTest' do
+
+
+ pod 'LXToolShare', :path => '../'
+
+end

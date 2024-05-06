@@ -1,0 +1,6 @@
+module LXToolShare {
+  umbrella header "LXToolShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

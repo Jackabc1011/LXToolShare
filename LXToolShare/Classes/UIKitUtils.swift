@@ -7,10 +7,6 @@
 
 import UIKit
 
-class UIKitUtils: NSObject {
-
-}
-
 
 public struct Font {
     
@@ -24,6 +20,5 @@ public struct Font {
     
     public static func pfSemibold(ofSize size:CGFloat) -> UIFont{
         return UIFont(name: "PingFangSC-Semibold", size: size) ?? UIFont.systemFont(ofSize: size)
-    }
-    
+    }    
 }
