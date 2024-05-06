@@ -14,15 +14,15 @@ class UIKitUtils: NSObject {
 
 public struct Font {
     
-    static func pfRegular(ofSize size:CGFloat) -> UIFont{
+    public  static func pfRegular(ofSize size:CGFloat) -> UIFont{
         return UIFont(name: "PingFangSC-Regular", size: size) ?? UIFont.systemFont(ofSize: size)
     }
     
-    static func pfMedium(ofSize size:CGFloat) -> UIFont{
+    public static func pfMedium(ofSize size:CGFloat) -> UIFont{
         return UIFont(name: "PingFangSC-Medium", size: size) ?? UIFont.systemFont(ofSize: size)
     }
     
-    static func pfSemibold(ofSize size:CGFloat) -> UIFont{
+    public static func pfSemibold(ofSize size:CGFloat) -> UIFont{
         return UIFont(name: "PingFangSC-Semibold", size: size) ?? UIFont.systemFont(ofSize: size)
     }
     
