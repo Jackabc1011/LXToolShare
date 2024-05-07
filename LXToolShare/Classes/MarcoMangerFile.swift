@@ -8,11 +8,6 @@
 import Foundation
 import UIKit
 
-enum GradientType {
-    case horizontal
-    case vertical
-}
-
 public let KScreenWidth:CGFloat                        = UIScreen.main.bounds.size.width
 
 public let KScreenHeight:CGFloat                       = UIScreen.main.bounds.size.height
@@ -39,30 +34,39 @@ public let S_Radii_6_Height :CGFloat                    = 6
 
 public let S_Radii_4_Height :CGFloat                    = 4
 
-
+/// 计算在给定屏幕宽度下，相对于375宽度的实际高度。
+///
+/// - Parameter changeHeight: 要转换的高度。
+/// - Returns: 返回实际高度。
 public func realyHeight(_ changeHeight:CGFloat)->CGFloat
 {
     return KScreenWidth * (changeHeight / 375)
 }
 
+/// 计算在改变宽度时，旧高度对应的新高度。
+///
 /// - Parameters:
-///   - width: 默认宽度
-///   - height: 默认高度
-///   - changeWidth: 新宽度
-/// - Returns: 返回新的高度
-public func backHeight(oldWidth width:CGFloat, oldheight height:CGFloat ,changeWidth:CGFloat) ->CGFloat
-{
+///   - width: 旧的宽度。
+///   - height: 旧的高度。
+///   - changeWidth: 新的宽度。
+/// - Returns: 返回新的高度。
+public func backHeight(oldWidth width: CGFloat, oldHeight height: CGFloat, changeWidth: CGFloat) -> CGFloat {
     return (height * changeWidth) / width
 }
 
+
+/// 计算在改变高度时，旧宽度对应的新宽度。
+///
 /// - Parameters:
-///   - width: 默认宽度
-///   - height: 默认高度
-///   - changeHeight: 新高度
+///   - oldWidth: 旧的宽度
+///   - oldHeight: 旧的高度
+///   - changeHeight: 新的高度
 /// - Returns: 返回新的宽度
-public func backWidth(oldWidth width:CGFloat, oldheight height:CGFloat ,changeHeight:CGFloat) ->CGFloat
-{
-    return (width * changeHeight) / height
+public func backWidth(oldWidth: CGFloat, oldHeight: CGFloat, changeHeight: CGFloat) -> CGFloat {
+    return (oldWidth * changeHeight) / oldHeight
 }
+
+
+
 
 

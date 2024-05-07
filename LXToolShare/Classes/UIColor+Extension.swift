@@ -25,7 +25,7 @@ public extension UIColor {
         var hexValue: UInt64 = 0
         
         guard Scanner(string: formattedHexString).scanHexInt64(&hexValue) else {
-            self.init(red: 0, green: 0, blue: 0, alpha: 1)
+            self.init(white: 0.5, alpha: alpha)
             return
         }
         

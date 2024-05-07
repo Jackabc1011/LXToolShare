@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 public struct Font {
     
     public  static func pfRegular(ofSize size:CGFloat) -> UIFont{
