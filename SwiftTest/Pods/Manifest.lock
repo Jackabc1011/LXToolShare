@@ -1,23 +1,16 @@
 PODS:
   - LXToolShare (0.0.1)
-  - SnapKit (5.7.1)
 
 DEPENDENCIES:
   - LXToolShare (from `../`)
-  - SnapKit
-
-SPEC REPOS:
-  trunk:
-    - SnapKit
 
 EXTERNAL SOURCES:
   LXToolShare:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXToolShare: ff6977639622578b822aa0d02f984c6782f5bef8
-  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  LXToolShare: f15de1232cf481dfdb663d6dd24febc908ddab1b
 
-PODFILE CHECKSUM: 1cf7f5302c174c08b58f85f3a1fb3d0eb01d6715
+PODFILE CHECKSUM: 002c99b80a68f4d350e383dac39c362451e55930
 
 COCOAPODS: 1.15.2

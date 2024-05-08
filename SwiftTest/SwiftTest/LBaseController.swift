@@ -27,5 +27,10 @@ class LBaseController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor(hexString: "#F8F8F8")
     }
+    
+     func createNavigation(withTitle title: String) -> UIView {
+        
+         return  self.createNavigation(withTitle: title, titleColor: UIColor.init(hexString: "#666666"), titleFont: UIFont.pfMedium(ofSize: 18), bgColor: UIColor.white)        
+    }
 }
 

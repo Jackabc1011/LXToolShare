@@ -12,21 +12,24 @@ class ViewController: LBaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let headV =  self.createNavigation(withTitle: "数据测试", titleColor: UIColor.black,
-                                           titleFont: Font.pfMedium(ofSize: 18), bgColor: UIColor.white)
+        let headV = self.createNavigation(withTitle: "数据测试")
+        
         self.view.addSubview(headV)
                 
         let placeString = "我是占位符"
-        let nameFiled = UITextField.createFiledWithPlace(placeString, placeColor: UIColor.yellow, placeFont: Font.pfRegular(ofSize: 14), textColor: UIColor.init(hexString: "#333333"), textFont: Font.pfMedium(ofSize: 16))
+        let nameFiled = UITextField.createFiledWithPlace(placeString, placeColor: UIColor.yellow, placeFont: UIFont.pfRegular(ofSize: 14), textColor: UIColor.init(hexString: "#333333"), textFont: UIFont.pfMedium(ofSize: 16))
         
         nameFiled.frame = CGRectMake(100, 200, 140, 40)
         nameFiled.borderStyle = .roundedRect
         nameFiled.textAlignment = .center
         self.view.addSubview(nameFiled)
+        
+       
+        LXTool.saveValue("", forKey: "")
             
         let button = UIButton(type: .custom)
             .title("点击跳转")
-            .font(Font.pfMedium(ofSize: 16))
+            .font(UIFont.pfMedium(ofSize: 16))
             .titleColor(UIColor.black)
             .backgroundColor(UIColor.blue)
             .cornerRadius(S_Radii_8_Height)

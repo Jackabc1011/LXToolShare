@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import LXToolShare
+//import LXToolShare
 
 class FirstViewController: LBaseController {
 
@@ -14,8 +14,21 @@ class FirstViewController: LBaseController {
         super.viewDidLoad()
 
         let backButtonImage = UIImage(named: "h_back_left") ?? UIImage()
-        self.createBackNavigationWithIcon(backButtonImage, leftWidth: 28, leftHeight: 28, title: "我是首页", color: UIColor.black, font: Font.pfMedium(ofSize: 18), bgColor: UIColor(hexString: "#f5f5f5"))
+        self.createBackNavigationWithIcon(backButtonImage, leftWidth: 28, leftHeight: 28, title: "我是首页", color: UIColor.black, font: UIFont.pfMedium(ofSize: 18), bgColor: UIColor(hexString: "#f5f5f5"))
         
+    
+        LXTool.saveValue("", forKey: "")
+        
+     let bb =   UIButton(type: .custom).title("").font(UIFont.pfMedium(ofSize: 15)).titleColor(UIColor.init(hexString: "#333333"))
+        
+//        bb.frame = CGRectMake(0, 0, 100, S_Radii_8_Height)
+        
+      let lab =  UILabel.text(title: "", font: UIFont.pfMedium(ofSize: 14), color: UIColor.init(hexString: ""), alignment: .center)
+        
+        let filed = UITextField.createFiledWithPlace("", placeColor: UIColor.black, placeFont: UIFont.pfRegular(ofSize: 14), textColor: UIColor.gray, textFont: UIFont.pfMedium(ofSize: 14))
+        
+        
+       
     }
     
 

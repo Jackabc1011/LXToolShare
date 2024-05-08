@@ -11,6 +11,10 @@
 		DF81D6A82BEB5AC400804680 /* LBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF81D6A72BEB5AC400804680 /* LBaseNavigationController.swift */; };
 		DF81D6AA2BEB5B6700804680 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF81D6A92BEB5B6700804680 /* FirstViewController.swift */; };
 		DF81D6AC2BEB5B7100804680 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF81D6AB2BEB5B7100804680 /* LastViewController.swift */; };
+		DF81D6B22BEB70AE00804680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A350E2BE8D1C100293A1E /* ViewController.swift */; };
+		DF81D6B32BEB70AF00804680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A350E2BE8D1C100293A1E /* ViewController.swift */; };
+		DF81D6B42BEB713800804680 /* HeadFileManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A35482BE9FAD300293A1E /* HeadFileManger.swift */; };
+		DF81D6B52BEB713800804680 /* HeadFileManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A35482BE9FAD300293A1E /* HeadFileManger.swift */; };
 		DF9A350B2BE8D1C100293A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A350A2BE8D1C100293A1E /* AppDelegate.swift */; };
 		DF9A350F2BE8D1C100293A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A350E2BE8D1C100293A1E /* ViewController.swift */; };
 		DF9A35122BE8D1C100293A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9A35102BE8D1C100293A1E /* Main.storyboard */; };
@@ -152,7 +156,6 @@
 				DF9A35032BE8D1C100293A1E /* Sources */,
 				DF9A35042BE8D1C100293A1E /* Frameworks */,
 				DF9A35052BE8D1C100293A1E /* Resources */,
-				C90DDA1F2E430B3C18AF667F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,23 +295,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C90DDA1F2E430B3C18AF667F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -331,6 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF81D6B22BEB70AE00804680 /* ViewController.swift in Sources */,
+				DF81D6B42BEB713800804680 /* HeadFileManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF81D6B32BEB70AF00804680 /* ViewController.swift in Sources */,
+				DF81D6B52BEB713800804680 /* HeadFileManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

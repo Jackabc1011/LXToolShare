@@ -7,16 +7,16 @@
 
 import UIKit
 
-public extension UIViewController {
+extension UIViewController {
     
-    func createHeadView() -> UIView {
+    public func createHeadView() -> UIView {
         let headView = UIView(frame: CGRect(x: 0, y: KStatusBarHeight, width: KScreenWidth, height: KNavBarHeight))
         headView.backgroundColor = UIColor.clear
         headView.isUserInteractionEnabled = true
         return headView
     }
     
-    func createNavigation(withTitle title: String, titleColor: UIColor, titleFont: UIFont, bgColor: UIColor) -> UIView {
+    public func createNavigation(withTitle title: String, titleColor: UIColor, titleFont: UIFont, bgColor: UIColor) -> UIView {
         let navigationView = UIView(frame: CGRect(x: 0, y: 0, width: KScreenWidth, height: KNavigationBarHeight))
         navigationView.backgroundColor = bgColor
         
@@ -35,8 +35,8 @@ public extension UIViewController {
         return navigationView
     }
     
-    func createBackNavigationWithIcon(_ icon: UIImage, leftWidth: CGFloat, leftHeight: CGFloat, title: String,
-                                      color: UIColor, font: UIFont,  bgColor: UIColor) {
+    public func createBackNavigationWithIcon(_ icon: UIImage, leftWidth: CGFloat, leftHeight: CGFloat, title: String,
+                                             color: UIColor, font: UIFont,  bgColor: UIColor) {
         
         let navigationView = UIView(frame: CGRect(x: 0, y: 0, width: KScreenWidth, height: KNavigationBarHeight))
         navigationView.backgroundColor = bgColor
@@ -65,7 +65,7 @@ public extension UIViewController {
         ])
     }
     
-    @objc func backLeftAction (){
+    @objc open func backLeftAction (){
         
         navigationController?.popViewController(animated: true)
     }

@@ -41,7 +41,7 @@ public extension UIColor {
         return UIColor(hex: hex, alpha: alpha)
     }
     
-    static func fromHexString(_ hexString: String, alpha: CGFloat = 1.0) -> UIColor {
+     static func fromHexString(_ hexString: String, alpha: CGFloat = 1.0) -> UIColor {
         return UIColor(hexString: hexString, alpha: alpha)
     }
     

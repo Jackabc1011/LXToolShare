@@ -7,17 +7,17 @@
 
 import UIKit
 
-public struct Font {
+public extension UIFont  {
     
-    public  static func pfRegular(ofSize size:CGFloat) -> UIFont{
+    static func pfRegular(ofSize size:CGFloat) -> UIFont{
         return UIFont(name: "PingFangSC-Regular", size: size) ?? UIFont.systemFont(ofSize: size)
     }
     
-    public static func pfMedium(ofSize size:CGFloat) -> UIFont{
+    static func pfMedium(ofSize size:CGFloat) -> UIFont{
         return UIFont(name: "PingFangSC-Medium", size: size) ?? UIFont.systemFont(ofSize: size)
     }
     
-    public static func pfSemibold(ofSize size:CGFloat) -> UIFont{
+    static func pfSemibold(ofSize size:CGFloat) -> UIFont{
         return UIFont(name: "PingFangSC-Semibold", size: size) ?? UIFont.systemFont(ofSize: size)
-    }    
+    }
 }

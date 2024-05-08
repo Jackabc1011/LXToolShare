@@ -8,7 +8,7 @@
 import UIKit
 import CommonCrypto
 
-public class LXTool: NSObject {
+open class LXTool: NSObject {
     
     /// 保存值
     /// - Parameters:
@@ -122,7 +122,7 @@ public class LXTool: NSObject {
     ///   - colors: 渐变色的颜色数组。
     ///   - locations: 渐变色的分段位置数组。
     ///   - type: 渐变方向，0表示水平方向，1表示垂直方向。
-   public static func applyGradient(to view:UIView,colors:[UIColor],locations:[NSNumber],type:NSInteger){
+    public static func applyGradient(to view:UIView,colors:[UIColor],locations:[NSNumber],type:NSInteger){
         view.layer.sublayers?.filter{$0 is CAGradientLayer}.forEach({ $0.removeFromSuperlayer() })
         let layer = CAGradientLayer()
         layer.frame = view.bounds
@@ -160,6 +160,6 @@ public class LXTool: NSObject {
         }
         view.layer.insertSublayer(layer, at: 0)
     }
-        
+    
     
 }

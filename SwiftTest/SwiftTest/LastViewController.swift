@@ -12,6 +12,8 @@ class LastViewController: LBaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
     }
     
 
