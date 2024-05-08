@@ -4,5 +4,7 @@ target 'SwiftTest' do
 
 
  pod 'LXToolShare', :path => '../'
-
+ 
+ pod 'SnapKit'
+ 
 end

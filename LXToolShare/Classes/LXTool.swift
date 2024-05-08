@@ -26,14 +26,12 @@ public class LXTool: NSObject {
         UserDefaults.standard.synchronize()
     }
     
-    
     /// 获取值
     /// - Parameter key: key
     /// - Returns: 返回存储的值
     public static func getValue(forKey key: String) -> String {
         return "\(UserDefaults.standard.object(forKey: key) ?? "")"
     }
-    
     
     /// 字典转化成字符串
     /// - Parameter dictionary: 字典
@@ -117,7 +115,6 @@ public class LXTool: NSObject {
         return ""
     }
     
-    
     /// 在指定的视图上应用渐变色效果。
     ///
     /// - Parameters:
@@ -140,7 +137,6 @@ public class LXTool: NSObject {
         }
         view.layer.addSublayer(layer)
     }
-    
     
     /// 在指定的视图上应用渐变色效果。
     ///
