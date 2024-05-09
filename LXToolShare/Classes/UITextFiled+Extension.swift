@@ -8,8 +8,6 @@
 import UIKit
 
 public extension UITextField {
-    
-    
     /// UITextField 初始化
     /// - Parameters:
     ///   - placeString: 占位文本
@@ -18,6 +16,7 @@ public extension UITextField {
     ///   - textColor: 颜色
     ///   - textFont: 字体
     /// - Returns: 返回UITextField
+    @discardableResult
     static func createFiledWithPlace(_ placeString:String ,placeColor:UIColor,placeFont:UIFont,
                                      textColor:UIColor,textFont:UIFont) ->UITextField{
         let filed = UITextField()

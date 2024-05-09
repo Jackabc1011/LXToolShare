@@ -16,9 +16,10 @@ extension UIViewController {
         return headView
     }
     
-    public func createNavigation(withTitle title: String, titleColor: UIColor, titleFont: UIFont, bgColor: UIColor) -> UIView {
+    public func createNavigation(withTitle title: String, titleColor: UIColor, titleFont: UIFont, bgColor: UIColor)  {
         let navigationView = UIView(frame: CGRect(x: 0, y: 0, width: KScreenWidth, height: KNavigationBarHeight))
         navigationView.backgroundColor = bgColor
+        view.addSubview(navigationView)
         
         let headView = createHeadView()
         navigationView.addSubview(headView)
@@ -31,8 +32,6 @@ extension UIViewController {
             titleLabel.widthAnchor.constraint(equalTo: headView.widthAnchor, multiplier: 0.6),
             titleLabel.heightAnchor.constraint(equalToConstant: KNavBarHeight)
         ])
-        
-        return navigationView
     }
     
     public func createBackNavigationWithIcon(_ icon: UIImage, leftWidth: CGFloat, leftHeight: CGFloat, title: String,
@@ -66,7 +65,6 @@ extension UIViewController {
     }
     
     @objc open func backLeftAction (){
-        
         navigationController?.popViewController(animated: true)
     }
     

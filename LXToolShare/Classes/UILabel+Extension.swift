@@ -28,25 +28,25 @@ public extension UILabel {
     
     
     //---------------------------
-    
+    @discardableResult
     static func text(title text: String?) -> UILabel {
         let label = UILabel()
         label.text = text
         return label
     }
-    
+    @discardableResult
     static func text(title text: String?, font: UIFont) -> UILabel {
         let label = UILabel.text(title:text)
         label.font = font
         return label
     }
-    
+    @discardableResult
     static func text(title text: String?, font: UIFont, color: UIColor) -> UILabel {
         let label = UILabel.text(title:text, font: font)
         label.textColor = color
         return label
     }
-    
+    @discardableResult
     static func text(title text: String?, font: UIFont, color: UIColor, alignment: NSTextAlignment) -> UILabel {
         let label = UILabel.text(title:text, font: font, color: color)
         label.textAlignment = alignment

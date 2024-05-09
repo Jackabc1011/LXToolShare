@@ -6,16 +6,14 @@
 //
 
 import UIKit
-import LXToolShare
-class ViewController: LBaseController {
+
+class MainViewController: LBaseController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let headV = self.createNavigation(withTitle: "数据测试")
-        
-        self.view.addSubview(headV)
-                
+         self.createNavigation(withTitle: "数据测试?")
+                        
         let placeString = "我是占位符"
         let nameFiled = UITextField.createFiledWithPlace(placeString, placeColor: UIColor.yellow, placeFont: UIFont.pfRegular(ofSize: 14), textColor: UIColor.init(hexString: "#333333"), textFont: UIFont.pfMedium(ofSize: 16))
         
@@ -24,15 +22,13 @@ class ViewController: LBaseController {
         nameFiled.textAlignment = .center
         self.view.addSubview(nameFiled)
         
-       
-        LXTool.saveValue("", forKey: "")
-            
+                
         let button = UIButton(type: .custom)
             .title("点击跳转")
             .font(UIFont.pfMedium(ofSize: 16))
             .titleColor(UIColor.black)
             .backgroundColor(UIColor.blue)
-            .cornerRadius(S_Radii_8_Height)
+            .cornerRadius(8)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         button.frame = CGRectMake(100, 250, 100, 50)
         self.view.addSubview(button)
